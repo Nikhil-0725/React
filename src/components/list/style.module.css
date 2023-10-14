@@ -1,0 +1,37 @@
+*{
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+input{
+    margin-bottom: 10px;
+    margin-left: 170px;
+    margin-top: 10px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 25px;
+    position: sticky;
+    top: 10px;
+    background-color: black;
+    color: white;
+}
+table{
+    padding: 20px;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid;
+    padding: 10px 20px;
+    text-align: center;
+    border-collapse: collapse ;
+}
+th{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 70px;
+    overflow-y: auto;
+}
